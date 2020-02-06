@@ -5,14 +5,14 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
   
 </head>
-<body>
+<body id = "javascropt">
 
     <form>
-      <p >How much was your bill?
+      <p >How much money did you spend this time? 
         <p>
           $ <input id="billamt" type="text" placeholder="Bill Amount" >
 
-          <p>How do you rank your service?
+          <p>How would you rank the quality of service?
             <p>
               <select id="serviceQual">
             <option disabled selected value="0">-- Choose an Option --</option>
@@ -24,11 +24,12 @@
             <option value="0.05">5&#37; &#45; Belower of Average</option>
             <option value="0.00">0&#37; &#45; Belowest of Average</option>
         </select>
+        <p>How many people are splitting the bill?</p>
+        <input id="peopleamt" type="text" placeholder="People paying"> 
+        <button type="button" id="calculate">Calculate!</button>
+    
 
     </form>
-    <p>How many people are sharing the bill?</p>
-    <input id="peopleamt" type="text" placeholder="People paying"> 
-    <button type="button" id="calculate">Calculate!</button>
 
   </div>
   <!--calculator end-->
