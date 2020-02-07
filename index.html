@@ -13,7 +13,7 @@
           $ <input id="billamt" type="text" placeholder="Bill Amount" >
 
           <p>How would you rank the quality of service?
-            <p>
+            
 
               <input list="serviceQualChoices" id="serviceQual"/>
               
@@ -27,10 +27,9 @@
                 <option value="0.05">5&#37; &#45; Belower of Average</option>
                 <option value="0.00">0&#37; &#45; Belowest of Average</option>
               </datalist>
-              
-              
-                            <!-- <select id="serviceQual">
-                          <option disabled selected value="0">-- Choose an Option --</option>
+                           
+                     <!-- <select id="serviceQual">
+                          <option disabled selected value="0">- - Choose an Option - -</option>
                           <option value="0.5">50&#37; &#45; Abovest of Average</option>
                           <option value="0.3">30&#37; &#45; Abover average</option>
                           <option value="0.2">20&#37; &#45; Above Average</option>
@@ -39,20 +38,27 @@
                           <option value="0.05">5&#37; &#45; Belower of Average</option>
                           <option value="0.00">0&#37; &#45; Belowest of Average</option>
                       </select> -->
-              
-
 
         <p>How many people are splitting the bill?</p>
         <input id="peopleamt" type="text" placeholder="People paying"> 
         <button type="button" id="calculate">Calculate!</button>
 
+  </div>
+  <!--calculator end-->
+  <div id="totalTip">
+    <sup>$</sup><span id="tip">0.00</span><p> to tip</p>
+    <small id="each">each</small>
+  </div>
+  <!--totalTip end-->
 
+    </form>
 
+    
 <!-- 
 <input list="serviceQualChoices"/>
 
 <datalist id="serviceQualChoices">
-  <option disabled selected value="0">-- Choose an Option --</option>
+  <option disabled selected value="0">- - Choose an Option - -</option>
   <option value="0.5">50&#37; &#45; Abovest of Average</option>
   <option value="0.3">30&#37; &#45; Abover average</option>
   <option value="0.2">20&#37; &#45; Above Average</option>
@@ -62,18 +68,6 @@
   <option value="0.00">0&#37; &#45; Belowest of Average</option>
 </datalist> -->
 
-
-    </form>
-
-    
-
-  </div>
-  <!--calculator end-->
-  <div id="totalTip">
-    <sup>$</sup><span id="tip">0.00</span>
-    <small id="each">each</small>
-  </div>
-  <!--totalTip end-->
 
 </div>
 <!--container end-->
@@ -86,7 +80,4 @@
 
 <div id="id2" ><button id = "id2"onclick="Calculate()">Calculate!</button></div>
 
-<p1 id = "javascropt">text</p1>
--->
-</body>
-</html>
+<p1 id = "javascropt">text</p1> --> </body> </html>

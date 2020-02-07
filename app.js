@@ -14,6 +14,12 @@ function calculateTip() {
   //validate input
   if (billAmt === "" || serviceQual == 0) {
     alert("Free food?");
+    document.body.style.backgroundImage
+    return;
+  }
+
+    if (billAmt === "party rock is in the hou") {
+    alert("se tonight");
     return;
   }
 
