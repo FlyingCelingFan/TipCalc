@@ -14,22 +14,58 @@
 
           <p>How would you rank the quality of service?
             <p>
-              <select id="serviceQual">
-            <option disabled selected value="0">-- Choose an Option --</option>
-            <option value="0.5">50&#37; &#45; Abovest of Average</option>
-            <option value="0.3">30&#37; &#45; Abover average</option>
-            <option value="0.2">20&#37; &#45; Above Average</option>
-            <option value="0.15">15&#37; &#45; Average</option>
-            <option value="0.1">10&#37; &#45; Below Average</option>
-            <option value="0.05">5&#37; &#45; Belower of Average</option>
-            <option value="0.00">0&#37; &#45; Belowest of Average</option>
-        </select>
+
+              <input list="serviceQualChoices" id="serviceQual"/>
+              
+              <datalist id="serviceQualChoices">
+                <option disabled selected value="0">-- Choose an Option --</option>
+                <option value="0.5">50&#37; &#45; Abovest of Average</option>
+                <option value="0.3">30&#37; &#45; Abover average</option>
+                <option value="0.2">20&#37; &#45; Above Average</option>
+                <option value="0.15">15&#37; &#45; Average</option>
+                <option value="0.1">10&#37; &#45; Below Average</option>
+                <option value="0.05">5&#37; &#45; Belower of Average</option>
+                <option value="0.00">0&#37; &#45; Belowest of Average</option>
+              </datalist>
+              
+              
+                            <!-- <select id="serviceQual">
+                          <option disabled selected value="0">-- Choose an Option --</option>
+                          <option value="0.5">50&#37; &#45; Abovest of Average</option>
+                          <option value="0.3">30&#37; &#45; Abover average</option>
+                          <option value="0.2">20&#37; &#45; Above Average</option>
+                          <option value="0.15">15&#37; &#45; Average</option>
+                          <option value="0.1">10&#37; &#45; Below Average</option>
+                          <option value="0.05">5&#37; &#45; Belower of Average</option>
+                          <option value="0.00">0&#37; &#45; Belowest of Average</option>
+                      </select> -->
+              
+
+
         <p>How many people are splitting the bill?</p>
         <input id="peopleamt" type="text" placeholder="People paying"> 
         <button type="button" id="calculate">Calculate!</button>
-    
+
+
+
+<!-- 
+<input list="serviceQualChoices"/>
+
+<datalist id="serviceQualChoices">
+  <option disabled selected value="0">-- Choose an Option --</option>
+  <option value="0.5">50&#37; &#45; Abovest of Average</option>
+  <option value="0.3">30&#37; &#45; Abover average</option>
+  <option value="0.2">20&#37; &#45; Above Average</option>
+  <option value="0.15">15&#37; &#45; Average</option>
+  <option value="0.1">10&#37; &#45; Below Average</option>
+  <option value="0.05">5&#37; &#45; Belower of Average</option>
+  <option value="0.00">0&#37; &#45; Belowest of Average</option>
+</datalist> -->
+
 
     </form>
+
+    
 
   </div>
   <!--calculator end-->

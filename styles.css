@@ -16,3 +16,15 @@ body {
     font-family: Impact;
     text-decoration: underline;
 }
+
+#totalTip {
+    
+    display: flex;
+    margin: bottom;
+    /* maybe using vw & vh is whats causing it not going in the middle? */
+    height:30vh;
+    width: 30vw;
+    font-size: 1vw;
+    font-family: Impact;
+    text-decoration: underline;
+}
