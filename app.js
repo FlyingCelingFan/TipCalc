@@ -18,10 +18,6 @@ function calculateTip() {
     return;
   }
 
-    if (billAmt === "party rock is in the hou") {
-    alert("se tonight");
-    return;
-  }
 
     if (billAmt === "party rock is in the hou") {
     alert("se tonight");
