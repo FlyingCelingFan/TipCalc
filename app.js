@@ -3,7 +3,7 @@
 //if there is time,
 //custom values	
 //total w/ tip included
-
+//center input boxes
 
 //Calculate Tip
 function calculateTip() {
