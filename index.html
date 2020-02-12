@@ -5,17 +5,17 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
   
 </head>
-<body id = "javascropt">
+<body id="javascropt">
 
     <form>
       <p >How much money did you spend this time? 
         <p>
           $ <input id="billamt" type="text" placeholder="Bill Amount" >
 
-          <p>How would you rank the quality of service?
+          <p>How would you rank the quality of service? <br>
             
 
-              <input list="serviceQualChoices" id="serviceQual"/>
+              <input list="serviceQualChoices" id="serviceQual" placeholder="decimal"/>
               
               <datalist id="serviceQualChoices">
                 <option disabled selected value="0">-- Choose an Option --</option>
@@ -44,10 +44,11 @@
         <button type="button" id="calculate">Calculate!</button>
 
   </div>
-  <!--calculator end-->
+  <!--calculator end ｂｒｏｏｍ-->
+
   <div id="totalTip">
-    <sup>$</sup><span id="tip">0.00</span><p> to tip</p>
-    <small id="each">each</small>
+    <p>To tip:<br>$<span id="tip"></span>
+    <small id="each"> each</small></p>
   </div>
   <!--totalTip end-->
 
